@@ -1,46 +1,33 @@
+/* General styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
 }
 
 h1 {
-    text-align: center;
-    color: #333;
-    margin-top: 20px;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
+    color: #4CAF50; /* Green color */
     text-align: center;
 }
 
-li {
-    margin: 10px 0;
-}
-
+/* Link styles */
 a {
+    display: block; /* Makes each link take up the full width */
+    margin: 10px 0; /* Adds some space between links */
+    padding: 10px;
     text-decoration: none;
-    color: #007BFF;
-    font-size: 18px;
+    color: #4CAF50; /* Green color */
+    border: 1px solid #4CAF50; /* Border that matches the link color */
+    border-radius: 5px;
+    text-align: center;
 }
 
 a:hover {
-    color: #0056b3;
+    background-color: #4CAF50; /* Green background on hover */
+    color: white; /* White text on hover */
 }
 
-.github-button {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 18px;
-    color: #fff;
-    background-color: #333;
-    border-radius: 5px;
-    text-decoration: none;
-}
 
-.github-button:hover {
-    background-color: #555;
-}
+
+
